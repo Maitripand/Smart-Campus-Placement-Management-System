@@ -40,11 +40,11 @@ A web-based placement management system developed for students and placement off
 ## Screenshots
 
 ### Home Page
-![Home](Screenshots/home.png)
+![Home](screenshots/home.png)
 
 ### Student Dashboard
-![Dashboard](Screenshots/student-dashboard.png)
+![Dashboard](screenshots/student-dashboard.png)
 
 ### Admin Dashboard
-![Admin](Screenshots/admin-dashboard.png)
+![Admin](screenshots/admin-dashboard.png)
   
