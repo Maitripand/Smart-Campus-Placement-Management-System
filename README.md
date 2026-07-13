@@ -36,3 +36,14 @@ A web-based placement management system developed for students and placement off
 
 ## Developed By
 **Maitri Pandya**
+
+## Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Student Dashboard
+![Dashboard](screenshots/student-dashboard.png)
+
+### Admin Dashboard
+![Admin](screenshots/admin-dashboard.png)
