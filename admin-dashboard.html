@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<h2>Teacher Panel</h2>
+
+<ul>
+
+<li>
+<a href="admin-dashboard.html">Dashboard</a>
+</li>
+
+<li>
+<a href="add-company.html">Add Company</a>
+</li>
+
+<li>
+<a href="#">Applications</a>
+</li>
+
+<li>
+<a href="#">Students</a>
+</li>
+
+<li>
+<a href="index.html">Logout</a>
+</li>
+
+</ul>
+
+</div>
+
+
+<!-- MAIN AREA -->
+
+<div class="main">
+
+<h1>Placement Officer Dashboard</h1>
+
+
+<!-- STATS -->
+
+<div class="cards">
+
+<div class="card">
+<h2 id="totalCompanies">0</h2>
+<p>Total Companies</p>
+</div>
+
+<div class="card">
+<h2>0</h2>
+<p>Applications</p>
+</div>
+
+<div class="card">
+<h2>0</h2>
+<p>Students</p>
+</div>
+
+</div>
+
+
+<!-- BUTTON -->
+
+<a href="add-company.html">
+<button>Add New Company</button>
+</a>
+
+
+<br><br><br>
+
+
+<!-- COMPANY SECTION -->
+
+<h2>Companies Added</h2>
+
+<div id="adminCompanyList"></div>
+
+
+<br><br>
+
+
+<!-- STUDENT APPLICATION SECTION -->
+
+<h2>Student Applications</h2>
+
+<div id="applicationList"></div>
+
+
+</div>
+
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>

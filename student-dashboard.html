@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+<h1>Available Companies</h1>
+<input
+ id="searchBox"
+ placeholder="Search Company"
+ onkeyup="searchCompany()">
+
+<br><br>
+
+<div id="companyList"></div>
+
+<script src="js/student.js"></script>
+
+<h2>My Applications</h2>
+
+<div id="myApplications"></div>
+
+<h2>Upload Resume</h2>
+
+<input type="file" id="resume">
+
+<button onclick="uploadResume()">
+Upload Resume
+</button>
+
+<br><br>
+
+</body>
+</html>
